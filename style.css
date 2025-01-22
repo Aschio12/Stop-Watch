@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/christmas-red-alarm-clock-time-xg8n485puldscluw.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+    
+#container{
+    height: 300px;
+    padding: 30px 30px;
+    margin:13% auto auto auto;
+    width:70%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.2);
+    backdrop-filter: blur(1.2px);
+
+}
+#display{
+    font-size: 9rem;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.466), 
+             -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+#mybtn{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    width:100%;
+    text-align: center;
+}
+.btn{
+    width: 28%;
+    backdrop-filter: blur(0.1px);
+    background-color: transparent;
+    font-size:3.5em;
+    margin-left:30px;
+    border-radius: 10px;
+    color: rgb(255, 0, 0);
+    border:none;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(200, 0, 0);;
+}
+.btn:focus{
+    color:white
+}
+
+
+
